@@ -1,0 +1,42 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+cimonster
+
+# Test binary, built with `go test -c`
+*.test
+*.upgrade
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Develop scripts
+go
+god
+godev
+got
+gotest
+
+# Folder for development runner scripts 
+drun/
+
+# Local editor configs
+.idea/
+.vscode/
+
+# Love you mac
+.DS_Store%    
+
+# Go stuff
+bin/
+pkg/
+
+# Goreleaser dist folder
+dist/
